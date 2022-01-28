@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://kit.fontawesome.com/947de710ef.js" crossorigin="anonymous"></script>
+    <script src="./assets/js/script.js"></script>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <title>Indigo</title>
+</head>
+<body>
+    <!--Header-->
+    <header id="header" class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">Indigo</a>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about-us">About Us</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li class="services">
+                        <a href="#services">Services <i class="fas fa-angle-down"></i></a>
+                        <ul class="menuItems">
+                            <li><a href="#action">Action</a></li>
+                            <li><a href="#another-action">Another Action</a></li>
+                            <li><a href="#something-else-here">Something Else Here</a></li>
+                            <li><a href="#separated-link">Separated Link</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <i class="fas fa-bars"></i>
+            </nav>
+            <!--End Navbar-->
+            <div class="row">
+                <div class="col-lg-6">
+                    <div>
+                        <img src="./assets/img/hero.jpg">
+                    </div>
+                </div>
+                <h1>INDIGO TEMPLATE</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium ullam consequatur repellat debitis maxime.</p>
+                <div class="btn">
+                    <button class="submit">Learn More</button>
+                    <button class="download">Download Now</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--End Header-->
+
+    @RenderBody()
+
+    <!--Footer-->
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 my-3">
+                    <div>
+                        <h2>ABOUT US</h2>
+                        <p>
+                            Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est.
+                            Sed tempus feugiat adipiscing nisl cursus aliquam dolore.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 my-3">
+                    <div>
+                        <h2>USA OFFICE</h2>
+                        <p>
+                            Twitter, Inc.<br>
+                            1355 Market Street, Suite 900
+                            San Francisco, CA 94103
+                            P: (123) 456-7890<br>
+                            Full Name<br>
+                            <a href="#"> first.last@example.com
+                        </p></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 my-3">
+                    <div>
+                        <h2>UK OFFICE</h2>
+                        <p>
+                            Twitter, Inc.<br>
+                            1355 Market Street, Suite 900
+                            San Francisco, CA 94103
+                            P: (123) 456-7890<br>
+                            Full Name<br>
+                            <a href="#">first.last@example.com
+                        </p></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <i class="far fa-copyright">Nomad Theme. Images: Pic Jumbo. By: <a href="#">Free Bootstrap Template.</i></a>
+            </div>
+        </div>
+    </footer>
+    <!--End Footer-->
+</body>
+</html>
